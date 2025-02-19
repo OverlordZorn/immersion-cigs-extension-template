@@ -1,5 +1,5 @@
-name = "Immersion Cigs - Rewrite"
-prefix = "cigs"
+name = "Immersion Cigs - Rewrite - Addon"
+prefix = "cigs_addon"
 mainprefix = "z"
 
 [properties]
