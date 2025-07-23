@@ -1,4 +1,6 @@
 # WORK IN PROGRESS - UNTESTED - NOT READY FOR USE
+This is dependend on an unreleased branch of the `immersion cigs - rewrite`. Any mod created with this wont work due to missing base classes and other detailes, which havent been published yet.
+
 
 # Immersion Cigs - Rewrite - Dependency-Addon Template
 
