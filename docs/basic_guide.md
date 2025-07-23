@@ -6,6 +6,8 @@ This example will
 - not change the cigarette package model (besides the texture)
 - not use a custom .rvmat file
 - not change any other config related stuff
+- will assume a brandname of `Sucky Strike`, as you surely know, you'll have to adapt it to your own liking.
+
 
 ### 1. Get the template files and establish your workspace
 
@@ -92,16 +94,19 @@ This example will
 <details>
 <summary>Click me to reveal</summary>
 
-Within the Mod Folder Structure, you will find the folder `\photoshop-files\` which has layered `.psd` files for each of the following texture files which you have to adapt.
+Within the Mod Folder Structure, you will find the folder `\photoshop-files\`. Inside, you'll find mutliple folders each with a template `.psd` and other resource files, to make the creation of new addons easier.
 
 - `addon\sucky_strike\data\texture.paa`
   - The texture file for the 3d Models of both, the cig-pack as well as for the individual cigarette stages.
 - `addon\sucky_strike\data\UI\gear_cigpack_x_ca.paa`
   - The Inventory Icon for the cigarette pack.
-- `addon\sucky_strike\data\UI\gear_cig0_x_ca.paa` .. `gear_cig4_x_ca.paa`
+- `addon\sucky_strike\data\UI\gear_cig0_x_ca.paa` .. `gear_cig4_x_ca.paa` (Optional)
+  - This step isnt exactly required if the cigarettes are very similar to the template textures. Details wont be very visible. If you change the Color of the cigarettes, you might want to consider the change though.
   - The Inventory Icons for each individual stage of the cigarette.
     - `cig0` is the unused cigarette.
     - `cig1` .. `cig4` is the burning cigarette during its different stages (shorter).
+- `img\mod-rw-trans.paa` (Optional)
+  - This is the Image used by the mod as as mod icon and shall support transparancy
 
 <br>
 </details>
@@ -109,6 +114,7 @@ Within the Mod Folder Structure, you will find the folder `\photoshop-files\` wh
 ### 7. Update `stringtable.xml`
 <details>
 <summary>Click me to reveal</summary>
+<br>
 
 The Stringtable.xml will contain the localized text for your cigarette brand. Here, you will be able to change the following:
 - Displayname Cigarettes
@@ -120,5 +126,29 @@ The Stringtable.xml will contain the localized text for your cigarette brand. He
 #### Linebreak
 
 To place an linebreak within an items description, the following has to be used: `&lt;br/&gt;`
-<br>
 </details>
+
+
+### 8. Build and test the mod by using hemtt
+<details>
+<summary>Click me to reveal</summary>
+<br>
+
+[VSCode Docs: How to use the Terminal](https://code.visualstudio.com/docs/terminal/getting-started)
+[Hemtt Docs: Launch](https://hemtt.dev/commands/launch.html)
+
+</details>
+
+### 9. Publish the Mod
+<details>
+<summary>Click me to reveal</summary>
+<br>
+
+[VSCode Docs: How to use the Terminal](https://code.visualstudio.com/docs/terminal/getting-started)
+[Hemtt Docs: Launch](https://hemtt.dev/commands/release.html)
+
+Once you're happy with the state of the mod, you can use `hemtt release` to build the mod.
+Take the .zip and use the `Arma 3 Publisher` from `Arma 3 Tools` to release your mod.
+
+</details>
+
