@@ -28,7 +28,6 @@ This example will
 <summary>Click me to reveal</summary>
 <br>
 
-![VS Code Rename](03_rename.png)
 - Can not have whitespaces, instead use `_`
 - use lower case
 - **Can not be an already existing brand(addon) name from the `immersion cigs - rewrite` mod**.
@@ -38,6 +37,8 @@ This example will
 <details>
 <summary>Click me to reveal</summary>
 <br>
+
+![VS Code Rename](03_rename.png)
 
 - Replace the following `~placeholders~` across the whole mod directory!
 - make sure to remove the `~`. These merely indicate the placeholders.
