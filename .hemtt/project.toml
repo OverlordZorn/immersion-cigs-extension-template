@@ -24,7 +24,10 @@ exclude = [
     "*.md",
     "/.vscode/",
     "/template_addon/",
-    "/Workshop/"
+    "/Workshop/",
+    "/docs/*",
+    "/photoshop-files/*",
+    "/tools/*",
 ]
 
 [version]
