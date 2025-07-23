@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="cigs_apollo">
+<Project name="cigs_~updateBrandName~">
     <Package name="Items">
-        <Key ID="STR_cigs_~mynewbrand~_cigarette">
-            <English>~mynewbrand~ Cigarette</English>
-            <French>~mynewbrand~ Cigarette</French>
-            <German>~mynewbrand~ Zigarette</German>
-            <Japanese>~mynewbrand~ 葉巻</Japanese>
-            <Chinese>~mynewbrand~ 香菸</Chinese>
+        <Key ID="STR_cigs_~updateBrandName~_cigarette">
+            <English>~updateBrandName~ Cigarette</English>
+            <French>~updateBrandName~ Cigarette</French>
+            <German>~updateBrandName~ Zigarette</German>
+            <Japanese>~updateBrandName~ 葉巻</Japanese>
+            <Chinese>~updateBrandName~ 香菸</Chinese>
         </Key>
-        <Key ID="STR_cigs_~mynewbrand~_cigpack">
-            <English>~mynewbrand~ Cigarette Pack</English>
-            <French>~mynewbrand~ Paquet de cigarettes</French>
-            <German>~mynewbrand~ Zigarettenschachtel</German>
-            <Japanese>~mynewbrand~ タバコ</Japanese>
-            <Chinese>~mynewbrand~ 一包菸</Chinese>
+        <Key ID="STR_cigs_~updateBrandName~_cigpack">
+            <English>~updateBrandName~ Cigarette Pack</English>
+            <French>~updateBrandName~ Paquet de cigarettes</French>
+            <German>~updateBrandName~ Zigarettenschachtel</German>
+            <Japanese>~updateBrandName~ タバコ</Japanese>
+            <Chinese>~updateBrandName~ 一包菸</Chinese>
         </Key>
-        <Key ID="STR_cigs_~mynewbrand~_cigpack_desc">
-            <English>~mynewbrand~ - Contains 20 cigarettes.&lt;br/&gt;Warning: Smoking is hazardous to your health.</English>
-            <French>~mynewbrand~ - Contient 20 cigarettes.&lt;br/&gt;Attention: Fumer est dangereux pour votre santé.</French>
-            <German>~mynewbrand~ - Enthält 20 Zigaretten.&lt;br/&gt;Achtung: Rauchen ist ungesund.</German>
-            <Japanese>~mynewbrand~ - 20 本の葉巻がある。&lt;br/&gt;警告:喫煙はあなたの健康を害します。</Japanese>
-            <Chinese>~mynewbrand~ - 內含二十根菸。警告：&lt;br/&gt;吸菸會導致性功能障礙。</Chinese>
+        <Key ID="STR_cigs_~updateBrandName~_cigpack_desc">
+            <English>~updateBrandName~ - Contains 20 cigarettes.&lt;br/&gt;Warning: Smoking is hazardous to your health.</English>
+            <French>~updateBrandName~ - Contient 20 cigarettes.&lt;br/&gt;Attention: Fumer est dangereux pour votre santé.</French>
+            <German>~updateBrandName~ - Enthält 20 Zigaretten.&lt;br/&gt;Achtung: Rauchen ist ungesund.</German>
+            <Japanese>~updateBrandName~ - 20 本の葉巻がある。&lt;br/&gt;警告:喫煙はあなたの健康を害します。</Japanese>
+            <Chinese>~updateBrandName~ - 內含二十根菸。警告：&lt;br/&gt;吸菸會導致性功能障礙。</Chinese>
         </Key>
     </Package>
-    <Package name="Main">
-        <Key ID="STR_mod_author">
-            <English>OverlordZorn</English>
+    <Package name="Author">
+        <Key ID="STR_cigs_~updateBrandName~_author">
+            <English>~updateAuthor~</English>
+        </Key>
+        <Key ID="STR_cigs_~updateBrandName~_url">
+            <English>~~updateURL~~</English>
         </Key>
     </Package>
 </Project>

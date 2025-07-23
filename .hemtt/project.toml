@@ -1,11 +1,10 @@
-name = "Immersion Cigs - Rewrite - Addon"
-prefix = "cigs_addon"
+name = "Immersion Cigs - Rewrite - ~updateBrandName~"
+prefix = "cigs"
 mainprefix = "z"
 
 [properties]
-author = "Rebel / Facel / Panimala / OverlordZorn / prisonerMO / Kneely / Vespade"
-url = "https://github.com/OverlordZorn/immersion-cigs-rewrite"
-
+author = "~updateAuthor~"
+url = "~updateURL~"
 
 [binarize]
 enabled = true # Default: true
@@ -29,8 +28,7 @@ exclude = [
 ]
 
 [version]
-# path = "addons/main/script_version.hpp" # Default
-# major = 0 # Overrides path when set
-# minor = 1
-# patch = 1
-# git_hash = 4 # Default: 8
+major = 1 # Overrides path when set
+minor = 0
+patch = 0
+# git_hash = 0 # Default: 8

@@ -5,10 +5,10 @@ class CfgPatches {
 
         // Meta information for editor
 		name = ADDON_NAME;
-		author = "$STR_mod_author";
-        authors[] = {"Rebel", "Facel", "Panimala", "OverlordZorn [CVO]", "prisonerMO"};
+		author = CSTRING(author);
+        authors[] = {"~updateAuthor~"};
 		
-        url = "$STR_mod_URL";
+        url = CSTRING(url);
 
 		VERSION_CONFIG;
 
@@ -18,7 +18,7 @@ class CfgPatches {
 
         // Required addons, used for setting load order.
         // When any of the addons is missing, pop-up warning will appear when launching the game.
-        requiredAddons[] = {QPVAR(main),"cba_main"};
+        requiredAddons[] = {"cba_main", "cigs_main", "cigs_base"};
 
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
 		skipWhenMissingDependencies = 1;
@@ -32,9 +32,6 @@ class CfgPatches {
 	};
 };
 
-#include "CfgMagazines.hpp"
-
-#include "CfgVehicles.hpp"
-
-#include "CfgWeapons.hpp"
-#include "CfgGlasses.hpp"
+#include "cigs_glasses.hpp"
+#include "cigs_hmd.hpp"
+#include "cigpack.hpp"
