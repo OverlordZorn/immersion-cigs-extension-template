@@ -6,9 +6,9 @@ hideName        = "false";                                               // Hide
 hidePicture     = "false";                                               // Hide the extension menu
 
 tooltip         = "Immersion Cigs - Rewrite - ~updateBrandName~";
-tooltipOwned    = "Immersion Cigs - Rewrite - ~updateBrandName~";                            // Tool tip displayed when the mouse is left over, in the main menu
-overview        = "Immersion Cigs - Rewrite - ~updateBrandName~";                            // Overview text, displayed from the extension menu
-description     = "Immersion Cigs - Rewrite - ~updateBrandName~";                            // Probably in context with action
+tooltipOwned    = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Tool tip displayed when the mouse is left over, in the main menu
+overview        = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Overview text, displayed from the extension menu
+description     = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Probably in context with action
 
 actionName      = "Website";
 action          = "~updateURL~";
