@@ -43,16 +43,16 @@ This example will
 - Replace the following `~placeholders~` across the whole mod directory!
 - make sure to remove the `~`. These merely indicate the placeholders.
 
-1. `~updateBrandName~` -> `sucky_strike`.
+1. `nil` -> `sucky_strike`.
    - needs to be exact as the addon folder name
    - no whitespaces
 2. `~updateBrandNameBeautified~` -> `Sucky Strike`.
    - Should be Capitalized
    - Can have Whitespaces
-3. `~updateAuthor~` -> `LeetHaxor [1337]`
+3. `OverlordZorn` -> `LeetHaxor [1337]`
    - Put your Username or whatever you want to be credited with
    - Can have Whitespaces
-4. `~updateURL~` -> `https://github.com/LeetHaxor/immersion-cigs-rewrite-sucky_strike`
+4. `https://github.com/` -> `https://github.com/LeetHaxor/immersion-cigs-rewrite-sucky_strike`
    - Can be any link, commonly used to direct to YOUR mods github repo
 </details>
 
