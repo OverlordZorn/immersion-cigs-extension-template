@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="cigs_nil">
+    <Package name="Author">
+        <Key ID="STR_cigs_nil_author">
+            <English>OverlordZorn</English>
+        </Key>
+        <Key ID="STR_cigs_nil_url">
+            <English>https://github.com/</English>
+        </Key>
+    </Package>
     <Package name="Items">
         <Key ID="STR_cigs_nil_cigarette">
             <English>NIL Cigarette</English>
@@ -21,14 +29,6 @@
             <German>NIL - Enthält 20 Zigaretten.&lt;br/&gt;Achtung: Rauchen ist ungesund.</German>
             <Japanese>NIL - 20 本の葉巻がある。&lt;br/&gt;警告:喫煙はあなたの健康を害します。</Japanese>
             <Chinese>NIL - 內含二十根菸。警告：&lt;br/&gt;吸菸會導致性功能障礙。</Chinese>
-        </Key>
-    </Package>
-    <Package name="Author">
-        <Key ID="STR_cigs_nil_author">
-            <English>OverlordZorn</English>
-        </Key>
-        <Key ID="STR_cigs_nil_url">
-            <English>https://github.com/</English>
         </Key>
     </Package>
 </Project>
