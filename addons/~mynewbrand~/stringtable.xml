@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="cigs_~updateBrandName~">
+    <Package name="Author">
+        <Key ID="STR_cigs_~updateBrandName~_author">
+            <English>~updateAuthor~</English>
+        </Key>
+        <Key ID="STR_cigs_~updateBrandName~_url">
+            <English>~~updateURL~~</English>
+        </Key>
+    </Package>
     <Package name="Items">
         <Key ID="STR_cigs_~updateBrandName~_cigarette">
             <English>~updateBrandName~ Cigarette</English>
@@ -21,14 +29,6 @@
             <German>~updateBrandName~ - Enthält 20 Zigaretten.&lt;br/&gt;Achtung: Rauchen ist ungesund.</German>
             <Japanese>~updateBrandName~ - 20 本の葉巻がある。&lt;br/&gt;警告:喫煙はあなたの健康を害します。</Japanese>
             <Chinese>~updateBrandName~ - 內含二十根菸。警告：&lt;br/&gt;吸菸會導致性功能障礙。</Chinese>
-        </Key>
-    </Package>
-    <Package name="Author">
-        <Key ID="STR_cigs_~updateBrandName~_author">
-            <English>~updateAuthor~</English>
-        </Key>
-        <Key ID="STR_cigs_~updateBrandName~_url">
-            <English>~~updateURL~~</English>
         </Key>
     </Package>
 </Project>
