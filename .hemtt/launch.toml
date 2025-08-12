@@ -5,7 +5,8 @@ workshop = [
     "463939057",  # ACE3
     "3499977893", # Advanced Developer Tools
     "1779063631", # ZEN
-    "3375788189", # Immersion Cigs - Rewrite
+    # "3375788189", # Immersion Cigs - Rewrite
+    "3518473416", # Immersion Cigs - Rewrite DEV Version
 ]
 
 dlc = [
@@ -33,3 +34,11 @@ dlc = ["vn"]
 [spe]
 extends = "default"
 dlc = ["vn", "spe"]
+
+[asp]
+extends = "default"
+workshop = [
+    "1645973522", # Intercept Minimal Dev
+    "1652506957", # Arma Script Profiler
+]
+

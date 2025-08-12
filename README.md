@@ -14,7 +14,7 @@ Any Addon/Mod created based on this template will require a dependency of the ma
 ## Prerequisites
 
 - An Image Editing Tool
-  - `.psd` files with layers and smartobjects are available for easier adoptation.
+  - `.psd` files with layers and smartobjects are available for easier adaptation.
   - I have used Photoshop. Gimp might be fine as well but untested.
 - Arma 3 Tools - https://store.steampowered.com/app/233800/Arma_3_Tools/
   - Object Builder to edit a texture path of the cigpack.p3d
