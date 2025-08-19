@@ -15,10 +15,8 @@ This example will
 <summary>Click me to reveal</summary>
 <br>
 
-#### A. Ether Use Github and create a Repository based on the Template Repository
+Create a Repository based on the Template Repository
 ![Use this template button](01_use_this_temlpate.png)
-#### B. Or Download Zip
-![Download Zip Button](02_download_zip.png)
 </details>
 
 
@@ -52,7 +50,7 @@ This example will
 3. `~updateAuthor~` -> `LeetHaxor [1337]`
    - Put your Username or whatever you want to be credited with
    - Can have Whitespaces
-4. `~updateURL~` -> `https://github.com/LeetHaxor/immersion-cigs-rewrite-sucky_strike`
+4. `~updateURL~` -> `https://github.com/LeetHaxor/immersion-cigs-extension-sucky_strike`
    - Can be any link, commonly used to direct to YOUR mods github repo
 </details>
 
