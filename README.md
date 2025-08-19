@@ -1,8 +1,4 @@
-# WORK IN PROGRESS - UNTESTED - NOT READY FOR USE
-This is dependend on an unreleased branch of the `immersion cigs - rewrite`. Any mod created with this wont work due to missing base classes and other detailes, which havent been published yet.
-
-
-# Immersion Cigs - Rewrite - Dependency-Addon Template
+# Immersion Cigs - Rewrite - Extension Template
 
 [![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3375788189?style=for-the-badge&logo=steam&label=Steam%20Workshop&color=%23690000&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3375788189)](https://steamcommunity.com/sharedfiles/filedetails/?id=3375788189)
 
