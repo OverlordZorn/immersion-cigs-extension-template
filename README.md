@@ -3,9 +3,9 @@
 [![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3375788189?style=for-the-badge&logo=steam&label=Steam%20Workshop&color=%23690000&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3375788189)](https://steamcommunity.com/sharedfiles/filedetails/?id=3375788189)
 
 
-This Github Repo is a Template Repository to be used by those, who are interested in creating their own cigarette brand addon.
+This Github Repo is a Template Repository for those, who are interested in creating their own cigarette brand extension.
 
-Any Addon/Mod created based on this template will require a dependency of the main `Immersion Cigs - Rewrite` Mod.
+Any Addon/Mod based on this template will have a dependency on the main `Immersion Cigs - Rewrite` Mod.
 
 ## Prerequisites
 
@@ -44,6 +44,3 @@ With this licence you are free to adapt (i.e. modify, rework or update) and shar
     Arma Only - You may not convert or adapt this material to be used in other games than Arma.
     Share Alike - If you adapt, or build upon this material, you may distribute the resulting material only under the same license.
 ```
-
-
-## 
