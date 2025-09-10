@@ -1,6 +1,6 @@
 name = "Immersion Cigs - Rewrite - ~updateBrandName~"
 prefix = "cigs"
-mainprefix = "z"
+mainprefix = "cigx"
 
 [properties]
 author = "~updateAuthor~"
