@@ -28,7 +28,7 @@ Create a Repository based on the Template Repository
 
 - Can not have whitespaces, instead use `_`
 - use lower case
-- **Can not be an already existing brand(addon) name from the `immersion cigs - rewrite` mod**.
+- **Can not be an already existing brand(addon) name from the `Immersive Cigs - Rewrite` mod**.
 </details>
 
 ### 3. Open the Repository in VS Code and use Search and Replace
@@ -136,6 +136,8 @@ To place an linebreak within an items description, the following has to be used:
 [VSCode Docs: How to use the Terminal](https://code.visualstudio.com/docs/terminal/getting-started)
 [Hemtt Docs: Launch](https://hemtt.dev/commands/launch.html)
 
+`hemtt check` will warn about 10 missing stringtable keys (`str_cigs_core_glasses_stage0` etc.). These come from the main mod and exist in game, so you can ignore them.
+
 </details>
 
 ### 9. Publish the Mod
@@ -144,10 +146,22 @@ To place an linebreak within an items description, the following has to be used:
 <br>
 
 [VSCode Docs: How to use the Terminal](https://code.visualstudio.com/docs/terminal/getting-started)
-[Hemtt Docs: Launch](https://hemtt.dev/commands/release.html)
+[Hemtt Docs: Release](https://hemtt.dev/commands/release.html)
 
 Once you're happy with the state of the mod, you can use `hemtt release` to build the mod.
 Take the .zip and use the `Arma 3 Publisher` from `Arma 3 Tools` to release your mod.
+
+To release automatically from GitHub instead, see `.github/workflows/release.yml`: replace `~updateWorkshopID~` with the Workshop ID of your mod and add `STEAM_USERNAME` / `STEAM_PASSWORD` as repository secrets.
+
+</details>
+
+### 10. (Optional) Let AI carry your brand by default
+<details>
+<summary>Click me to reveal</summary>
+<br>
+
+Immersive Cigs hands out cigarettes to AI units. Which packs each side gets by default comes from presets in config, and your mod can add its own.
+See [Default pack presets](https://github.com/CVO-Org/immersive-cigs-rewrite/blob/main/docs/modders.md#default-pack-presets) in the main mod's documentation.
 
 </details>
 

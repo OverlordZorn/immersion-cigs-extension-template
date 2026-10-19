@@ -7,16 +7,16 @@
 #
 # How to use
 #
-# 1. Update the FOLDER Variable and remove the #
-# 2. Update the WORKSHOP ID Variable and remove the #
+# 1. Check the FOLDER variable (set by the ~updateBrandName~ placeholder)
+# 2. Replace ~updateWorkshopID~ with the Workshop ID of YOUR mod
 # 3. Add STEAM_USERNAME as github repo secret
 # 4. Add STEAM_PASSWORD as github repo secret
 
 name: Release
 
 env:
-  FOLDER: '@cigs'
-  WORKSHOPID: '3375788189'
+  FOLDER: '@cigs_~updateBrandName~'
+  WORKSHOPID: '~updateWorkshopID~'
 
 on:
   release:

@@ -1,11 +1,11 @@
-# Immersion Cigs - Rewrite - Extension Template
+# Immersive Cigs - Rewrite - Extension Template
 
 [![Steam Subscriptions](https://img.shields.io/steam/subscriptions/3375788189?style=for-the-badge&logo=steam&label=Steam%20Workshop&color=%23690000&link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3375788189)](https://steamcommunity.com/sharedfiles/filedetails/?id=3375788189)
 
 
 This Github Repo is a Template Repository for those, who are interested in creating their own cigarette brand extension.
 
-Any Addon/Mod based on this template will have a dependency on the main `Immersion Cigs - Rewrite` Mod.
+Any Addon/Mod based on this template will have a dependency on the main `Immersive Cigs - Rewrite` Mod.
 
 ## Prerequisites
 
