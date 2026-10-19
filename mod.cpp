@@ -1,14 +1,14 @@
-name = "Immersion Cigs - Rewrite - ~updateBrandName~";
+name = "Immersive Cigs - Rewrite - ~updateBrandName~";
 
 author = "~updateAuthor~";
 
 hideName        = "false";                                               // Hide the extension name
 hidePicture     = "false";                                               // Hide the extension menu
 
-tooltip         = "Immersion Cigs - Rewrite - ~updateBrandName~";
-tooltipOwned    = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Tool tip displayed when the mouse is left over, in the main menu
-overview        = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Overview text, displayed from the extension menu
-description     = "Immersion Cigs - Rewrite - ~updateBrandName~";        // Probably in context with action
+tooltip         = "Immersive Cigs - Rewrite - ~updateBrandName~";
+tooltipOwned    = "Immersive Cigs - Rewrite - ~updateBrandName~";        // Tool tip displayed when the mouse is left over, in the main menu
+overview        = "Immersive Cigs - Rewrite - ~updateBrandName~";        // Overview text, displayed from the extension menu
+description     = "Immersive Cigs - Rewrite - ~updateBrandName~";        // Probably in context with action
 
 actionName      = "Website";
 action          = "~updateURL~";
@@ -20,9 +20,9 @@ logo            = "img\mod-rw-trans.paa";
 logoOver        = "img\mod-rw-trans.paa";
 
 overviewPicture = "img\mod-rw-trans.paa";
-overviewText    = "Immersion Cigs - Rewrite - ~updateBrandName~";
+overviewText    = "Immersive Cigs - Rewrite - ~updateBrandName~";
 
-overviewFootnote = "Immersion Cigs - Rewrite - ~updateBrandName~";
+overviewFootnote = "Immersive Cigs - Rewrite - ~updateBrandName~";
 
 
 // Color used for DLC stripes and backgrounds (RGBA)
