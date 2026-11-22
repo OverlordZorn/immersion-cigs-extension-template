@@ -27,6 +27,12 @@ parameters = [
 # rapify = true # Default: true
 
 
+[aceax]
+extends = "default"
+workshop = [
+    "2522638637", # ACE3 Arsenal Extended - Core
+]
+
 [vn]
 extends = "default"
 dlc = ["vn"]
