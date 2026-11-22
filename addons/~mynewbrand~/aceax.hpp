@@ -9,10 +9,11 @@ class XtdGearModels {
         class brand {
             values[] += { QUOTE(COMPONENT) };
 
-            // Text button. For a logo button like the main mod's brands, add a square pack front as
-            // data\ui\aceax_logo_ca.paa, set label = ""; and add: image = QPATHTOF(data\ui\aceax_logo_ca.paa);
+            // Logo button like the main mod's brands: your pack front, 256x256 on a transparent square (data\ui\aceax_logo_ca.paa).
+            // For a text button instead, set label = "~updateBrandNameBeautified~"; and remove the image line.
             class COMPONENT {
-                label = "~updateBrandNameBeautified~";
+                label = "";
+                image = QPATHTOF(data\ui\aceax_logo_ca.paa);
                 description = CSTRING(cigarette);
             };
         };

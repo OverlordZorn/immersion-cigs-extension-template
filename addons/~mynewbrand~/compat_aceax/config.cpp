@@ -7,7 +7,7 @@ class CfgPatches {
     class DOUBLES(ADDON,compat_aceax) {
         name = Q(PREFIX_BEAUTIFIED - COMPONENT_BEAUTIFIED - ACE Arsenal Extended);
         author = CSTRING(author);
-        requiredVersion = 2.02;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = { QUOTE(ADDON), "aceax_gearinfo" };
         skipWhenMissingDependencies = 1;
         units[] = {};

@@ -12,8 +12,11 @@ Any Addon/Mod based on this template will have a dependency on the main `Immersi
 - An Image Editing Tool
   - `.psd` files with layers and smartobjects are available for easier adaptation.
   - I have used Photoshop. Gimp might be fine as well but untested.
+- Python 3 - https://www.python.org/
+  - `tools/mlod.py` sets the texture path of the cigpack.p3d (no extra packages needed)
+  - `tools/aceax_logo.py` and the main mod's texture and icon scripts need Pillow: `pip install pillow`
 - Arma 3 Tools - https://store.steampowered.com/app/233800/Arma_3_Tools/
-  - Object Builder to edit a texture path of the cigpack.p3d
+  - Object Builder, if you'd rather edit the texture path of the cigpack.p3d by hand
   - Publisher to publish your mod to the steam workshop
 - Hemtt - https://hemtt.dev/
   - To build The mod
