@@ -165,3 +165,19 @@ See [Default pack presets](https://github.com/CVO-Org/immersive-cigs-rewrite/blo
 
 </details>
 
+### 11. ACE Arsenal Extended
+<details>
+<summary>Click me to reveal</summary>
+<br>
+
+With [ACE Arsenal Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2522638637) loaded, the arsenal groups all cigarettes into one entry with a brand and a stage selector. Your brand joins it through two files that come with the template:
+
+1. `addons\sucky_strike\compat_aceax\config.cpp`: a sub-config that only loads with ACE Arsenal Extended. Your stage 0 cigarette (`cig0`, `cig0_nv`) is `scope = 1`, hidden from the arsenal and the Eden lists, like the main mod's brands. The sub-config sets it back to `scope = 2` and includes `aceax.hpp`. Without ACE Arsenal Extended it's dropped (`skipWhenMissingDependencies`), so your mod doesn't depend on it.
+2. `addons\sucky_strike\aceax.hpp`: adds your brand to the main mod's brand selector (`values[] += { ... }`, which appends instead of replacing the main mod's list) and maps your cigarettes to it. It uses `COMPONENT`, so there's nothing to rename besides the placeholders from step 3.
+
+The button shows your brand name as text. For a logo button like the main mod's brands, add a square pack front as `data\ui\aceax_logo_ca.paa`, set `label = "";` and add `image = QPATHTOF(data\ui\aceax_logo_ca.paa);` (see the comment in `aceax.hpp`).
+
+`hemtt launch aceax` starts the game with ACE Arsenal Extended.
+
+</details>
+
