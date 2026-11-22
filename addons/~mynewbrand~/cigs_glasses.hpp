@@ -18,6 +18,7 @@ class CfgGlasses {
 
         PVAR(totalPuffs) = TOTALPUFFS;
         PVAR(curStage) = 0;
+        PVAR(flavor)[] = { FLAVOR };
     };
 
     class GVAR(cig1): GVAR(cig0) {
